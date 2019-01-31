@@ -4,8 +4,9 @@
 
 
   function limitaPost($stringa){
-    $contaCaratteri = strlen($stringa);
-    return $contaCaratteri;
+
+    return substr($stringa, 0, 150);
+
   }
 
  ?>
