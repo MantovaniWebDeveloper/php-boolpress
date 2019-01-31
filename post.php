@@ -12,20 +12,12 @@
 
       <?php foreach ($posts as $k => $post) : ?>
         <div class="wrapPost">
-          <?php /*  echo "<pre>";
-           var_dump($post); die();
-           echo "</pre>"; */
-          ?>
           <div class="titlePost">
             <a href="post-detail.php?slug=<?php echo $post[slug]; ?>">
               <h2><?php echo $post[title]; ?></h2>
             </a>
           </div>
           <div class="datePost">
-          <!-- <?php
-              /*$timestamp = strtotime('2018-05-17');
-              echo date('d F H', $timestamp); */
-             ?> -->
             <small>Pubblicato il <?php echo $post[published_at]; ?></small>
           </div>
           <div class="contentPost">
