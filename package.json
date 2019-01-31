@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/MantovaniWebDeveloper/php-boolpress#readme",
   "devDependencies": {
-    "laravel-mix": "^4.0.14"
+    "laravel-mix": "^4.0.14",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.16.1",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.22"
   }
 }

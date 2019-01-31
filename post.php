@@ -5,6 +5,8 @@
     <title>boolpress by Dario Mantovani</title>
   </head>
   <body>
+    
 
+  <script src="src/js/app.js"></script>
   </body>
 </html>
