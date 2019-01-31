@@ -6,7 +6,7 @@
         'image' => 'https://placeimg.com/640/480/tech/5',
         'tag' => ['developer','health'],
         'slug' => 'programmare-cervello',
-        'published_at' => '16/05/2018 09:30:00'
+        'published_at' => '16/05/2018'
       ],
       [
         'title' => '20km alla settimana di corsa: il segreto per vivere a lungo',
@@ -14,7 +14,7 @@
         'image' => 'https://placeimg.com/640/480/tech/6',
         'tag' => ['health','running'],
         'slug' => 'settimana-corsa-segreto',
-        'published_at' => '16/05/2018 19:00:00'
+        'published_at' => '16/05/2018'
       ],
       [
         'title' => 'Impostor Syndrome: come evitare che ti blocchi la crescita (professionale)',
@@ -22,7 +22,7 @@
         'image' => 'https://placeimg.com/640/480/tech/8',
         'tag' => ['developer','tips'],
         'slug' => 'impostor-syndrome',
-        'published_at' => '17/05/2018 09:00:00'
+        'published_at' => '17/05/2018'
       ],
       [
         'title' => '10 cose da non fare quando non riesci a scrivere codice',
@@ -30,7 +30,7 @@
         'image' => 'https://placeimg.com/640/480/tech/7',
         'tag' => ['developer','tips'],
         'slug' => 'cose-da-non-fare',
-        'published_at' => '20/05/2018 09:00:00'
+        'published_at' => '20/05/2018'
       ],
   ];
 

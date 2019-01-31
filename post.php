@@ -7,6 +7,7 @@
   </head>
   <body>
     <?php include("data.php"); ?>
+
     <div class="container">
 
       <?php foreach ($posts as $k => $post) : ?>
@@ -16,9 +17,15 @@
            echo "</pre>"; */
           ?>
           <div class="titlePost">
-            <a href="#"><h2><?php echo $post[title]; ?></h2></a>
+            <a href="post-detail.php?slug=<?php echo $post[slug]; ?>">
+              <h2><?php echo $post[title]; ?></h2>
+            </a>
           </div>
           <div class="datePost">
+          <!-- <?php
+              /*$timestamp = strtotime('2018-05-17');
+              echo date('d F H', $timestamp); */
+             ?> -->
             <small>Pubblicato il <?php echo $post[published_at]; ?></small>
           </div>
           <div class="contentPost">

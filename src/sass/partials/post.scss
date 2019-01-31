@@ -3,6 +3,7 @@
   .titlePost {
     float: left;
     font-size: 15px;
+    margin-right: 15px;
     a {
       color: #000;
       text-decoration: none;
@@ -12,7 +13,10 @@
     }
   }
   .datePost {
-    line-height: 20px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    color: grey;
   }
   .contentPost {
     padding-top: 20px;

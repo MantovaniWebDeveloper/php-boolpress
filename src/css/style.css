@@ -16,6 +16,7 @@
 .wrapPost .titlePost {
   float: left;
   font-size: 15px;
+  margin-right: 15px;
 }
 
 .wrapPost .titlePost a {
@@ -28,7 +29,10 @@
 }
 
 .wrapPost .datePost {
-  line-height: 20px;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  color: grey;
 }
 
 .wrapPost .contentPost {
