@@ -6,7 +6,10 @@
     <title>boolpress by Dario Mantovani</title>
   </head>
   <body>
-    <?php include("data.php"); ?>
+    <?php
+    include("data.php");
+    include("functions.php");
+    ?>
 
     <div class="container">
 
@@ -21,7 +24,7 @@
             <small>Pubblicato il <?php echo $post[published_at]; ?></small>
           </div>
           <div class="contentPost">
-            <p><?php echo $post[content]; ?></p>
+            <p><?php echo limitaPost($post[content]); ?></p>
           </div>
         </div>
       <?php endforeach; ?>
