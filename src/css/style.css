@@ -13,3 +13,25 @@
   margin-top: 100px;
 }
 
+.wrapPost .titlePost {
+  float: left;
+  font-size: 15px;
+}
+
+.wrapPost .titlePost a {
+  color: #000;
+  text-decoration: none;
+}
+
+.wrapPost .titlePost a:hover {
+  color: grey;
+}
+
+.wrapPost .datePost {
+  line-height: 20px;
+}
+
+.wrapPost .contentPost {
+  padding-top: 20px;
+}
+

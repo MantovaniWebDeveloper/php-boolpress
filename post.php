@@ -16,13 +16,13 @@
            echo "</pre>"; */
           ?>
           <div class="titlePost">
-            <h2><?php echo $post[title]; ?></h2>
+            <a href="#"><h2><?php echo $post[title]; ?></h2></a>
           </div>
           <div class="datePost">
-            <h2><?php echo $post[published_at]; ?></h2>
+            <small>Pubblicato il <?php echo $post[published_at]; ?></small>
           </div>
           <div class="contentPost">
-            <h2><?php echo $post[content]; ?></h2>
+            <p><?php echo $post[content]; ?></p>
           </div>
         </div>
       <?php endforeach; ?>
