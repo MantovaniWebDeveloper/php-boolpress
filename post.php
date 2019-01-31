@@ -15,7 +15,15 @@
            var_dump($post); die();
            echo "</pre>"; */
           ?>
-         <h2><?php echo $post[title]; ?></h2>
+          <div class="titlePost">
+            <h2><?php echo $post[title]; ?></h2>
+          </div>
+          <div class="datePost">
+            <h2><?php echo $post[published_at]; ?></h2>
+          </div>
+          <div class="contentPost">
+            <h2><?php echo $post[content]; ?></h2>
+          </div>
         </div>
       <?php endforeach; ?>
     </div>
