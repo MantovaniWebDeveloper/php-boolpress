@@ -33,4 +33,6 @@
         'published_at' => '20/05/2018 09:00:00'
       ],
   ];
+
+//  echo json_encode($posts);
  ?>
