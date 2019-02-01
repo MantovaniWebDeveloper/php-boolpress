@@ -32,7 +32,7 @@
                <p><?php echo $post[content]; ?></p>
              </div>
            </div>
-           <small>Tag: <?php echo $post[tag]; ?></small>
+           <small>Tag: <a href="#"><?php echo leggiTag($post[tag]); ?></a></small>
          </div>
        <?php } ?>
        <?php endforeach; ?>

@@ -23,4 +23,10 @@
 
     return $dataFormattata." alle ".$oraFormattata;
   }
+
+  function leggiTag($array){
+    foreach ($array as $elemento) {
+      echo $elemento." ";
+    }
+  }
  ?>
