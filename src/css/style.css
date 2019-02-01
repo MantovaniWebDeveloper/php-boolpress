@@ -99,3 +99,31 @@ header form {
   text-decoration: none;
 }
 
+.wrapPostCommenti {
+  margin-top: 100px;
+}
+
+.wrapPostCommenti .titleComment {
+  float: left;
+}
+
+.wrapPostCommenti .emailComment {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.wrapPostCommenti .emailComment small {
+  color: grey;
+  padding-left: 5px;
+}
+
+.wrapPostCommenti .emailComment small::before {
+  content: " - ";
+}
+
+.wrapPostCommenti .contentComment {
+  clear: both;
+  padding-top: 20px;
+}
+
