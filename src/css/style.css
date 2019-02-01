@@ -43,6 +43,20 @@
   margin-top: 100px;
 }
 
+.wrapPostDetail .titlePostDetail {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.wrapPostDetail .titlePostDetail a {
+  color: #000;
+  text-decoration: none;
+}
+
+.wrapPostDetail .titlePostDetail a:hover {
+  color: grey;
+}
+
 .wrapPostDetail .datePostDetail {
   padding-top: 20px;
 }
@@ -61,5 +75,6 @@
 .wrapPostDetail .wrapContentDetail .contentPostDetail {
   width: 70%;
   height: 100%;
+  padding-left: 10px;
 }
 

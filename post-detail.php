@@ -32,6 +32,7 @@
                <p><?php echo $post[content]; ?></p>
              </div>
            </div>
+           <small>Tag: <?php echo $post[tag]; ?></small>
          </div>
        <?php } ?>
        <?php endforeach; ?>
