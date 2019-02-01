@@ -10,13 +10,17 @@
   }
 
   function convertiData($stringa) {
-    //explode
+    //explode data
     $stringaExplode = (explode(" ",$stringa));
     $data = $stringaExplode[0];
     $change = str_replace('/', '-', $data);
     $dataFormattata = date('d M y', strtotime($change));
-    $ora = $stringaExplode[1];
 
-    return $dataFormattata;
+
+    $ora = $stringaExplode[1];
+    $oraFormattata = date('H', strtotime($ora));
+
+
+    return $dataFormattata." alle ".$oraFormattata;
   }
  ?>
