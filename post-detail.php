@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="src/css/style.css">
-    <title></title>
+
   </head>
   <body>
     <?php
@@ -15,7 +15,7 @@
      <div class="container">
        <?php foreach ($posts as $k => $post) : ?>
          <?php if($getSlug == $post[slug]) { ?>
-         <div class="wrapPost">
+         <div class="wrapPostDetail">
            <div class="titlePostDetail">
              <a href="post-detail.php?slug=<?php echo $post[slug]; ?>">
                <h2><?php echo $post[title]; ?></h2>
