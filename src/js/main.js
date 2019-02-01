@@ -2,9 +2,18 @@
 var $ = require("jquery");
 
 $(document).ready(function() {
-  //alert("ciao");
+  //alert("esisto");
+  var url = "http://localhost/php/php-boolpress/data-comments.php"
+  $.ajax({
+    url: url,
+    method: "GET",
+    success: function(data) {
+      
 
-  //creo una chiamata per recuperare i post
 
-
+    },
+    error: function(error) {
+      alert("c'è un errore di comunicazione");
+    }
+  })
 });

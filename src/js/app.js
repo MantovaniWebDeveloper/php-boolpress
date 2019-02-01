@@ -10472,8 +10472,17 @@ return jQuery;
 //richiamo jquery
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-$(document).ready(function () {//alert("ciao");
-  //creo una chiamata per recuperare i post
+$(document).ready(function () {
+  //alert("esisto");
+  var url = "http://localhost/php/php-boolpress/data-comments.php";
+  $.ajax({
+    url: url,
+    method: "GET",
+    success: function success(data) {},
+    error: function error(_error) {
+      alert("c'è un errore di comunicazione");
+    }
+  });
 });
 
 /***/ }),
