@@ -21,7 +21,7 @@
             </a>
           </div>
           <div class="datePost">
-            <small>Pubblicato il <?php echo $post[published_at]; ?></small>
+            <small>Pubblicato il <?php echo convertiData($post[published_at]); ?></small>
           </div>
           <div class="contentPost">
             <p><?php echo limitaPost($post[content]); ?></p>

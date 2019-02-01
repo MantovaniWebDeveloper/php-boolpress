@@ -9,4 +9,14 @@
 
   }
 
+  function convertiData($stringa) {
+    //explode
+    $stringaExplode = (explode(" ",$stringa));
+    $data = $stringaExplode[0];
+    $ora = $stringaExplode[1];
+
+    $dataConvertita = date("d M Y", strtotime($dataRovesciata));
+
+    return $dataConvertita;
+  }
  ?>
