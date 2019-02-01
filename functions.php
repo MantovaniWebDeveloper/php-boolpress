@@ -13,10 +13,10 @@
     //explode
     $stringaExplode = (explode(" ",$stringa));
     $data = $stringaExplode[0];
+    $change = str_replace('/', '-', $data);
+    $dataFormattata = date('d M y', strtotime($change));
     $ora = $stringaExplode[1];
 
-    $dataConvertita = date("d M Y", strtotime($dataRovesciata));
-
-    return $dataConvertita;
+    return $dataFormattata;
   }
  ?>
