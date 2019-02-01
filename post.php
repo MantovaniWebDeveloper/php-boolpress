@@ -16,15 +16,15 @@
       <?php foreach ($posts as $k => $post) : ?>
         <div class="wrapPost">
           <div class="titlePost">
-            <a href="post-detail.php?slug=<?php echo $post[slug]; ?>">
-              <h2><?php echo $post[title]; ?></h2>
+            <a href="post-detail.php?slug=<?php echo $post["slug"]; ?>">
+              <h2><?php echo $post["title"]; ?></h2>
             </a>
           </div>
           <div class="datePost">
-            <small>Pubblicato il <?php echo convertiData($post[published_at]); ?></small>
+            <small>Pubblicato il <?php echo convertiData($post["published_at"]); ?></small>
           </div>
           <div class="contentPost">
-            <p><?php echo limitaPost($post[content]); ?></p>
+            <p><?php echo limitaPost($post["content"]); ?></p>
           </div>
         </div>
       <?php endforeach; ?>

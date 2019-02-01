@@ -14,25 +14,25 @@
 
      <div class="container">
        <?php foreach ($posts as $k => $post) : ?>
-         <?php if($getSlug == $post[slug]) { ?>
+         <?php if($getSlug == $post["slug"]) { ?>
          <div class="wrapPostDetail">
            <div class="titlePostDetail">
-             <a href="post-detail.php?slug=<?php echo $post[slug]; ?>">
-               <h2><?php echo $post[title]; ?></h2>
+             <a href="post-detail.php?slug=<?php echo $post["slug"]; ?>">
+               <h2><?php echo $post["title"]; ?></h2>
              </a>
            </div>
            <div class="datePostDetail">
-             <small>Pubblicato il <?php echo convertiData($post[published_at]); ?></small>
+             <small>Pubblicato il <?php echo convertiData($post["published_at"]); ?></small>
            </div>
            <div class="wrapContentDetail">
              <div class="wrapImg">
-               <img src="<?php echo $post[image]; ?>" alt="">
+               <img src="<?php echo $post["image"]; ?>" alt="">
              </div>
              <div class="contentPostDetail">
-               <p><?php echo $post[content]; ?></p>
+               <p><?php echo $post["content"]; ?></p>
              </div>
            </div>
-           <small>Tag: <a href="#"><?php echo leggiTag($post[tag]); ?></a></small>
+           <small>Tag: <a href="#"><?php echo leggiTag($post["tag"]); ?></a></small>
          </div>
        <?php } ?>
        <?php endforeach; ?>

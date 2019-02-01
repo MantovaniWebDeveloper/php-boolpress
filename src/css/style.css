@@ -78,3 +78,12 @@
   padding-left: 10px;
 }
 
+.wrapPostDetail small {
+  color: grey;
+}
+
+.wrapPostDetail small a {
+  color: grey;
+  text-decoration: none;
+}
+
