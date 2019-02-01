@@ -10,12 +10,20 @@
     include("data.php");
     include("functions.php");
     $queryTag = $_GET["tag"];
-    $urlStringa = "http://localhost/php/php-boolpress/post.php";
+  /*  $urlStringa = "http://localhost/php/php-boolpress/post.php";
     $urlAttuale = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-    var_dump($urlAttuale);
+    var_dump($urlAttuale); */
     ?>
-
+    <header>
+      <div class="container">
+        <form action="post.php" method="get">
+          <input type="text" name="tag" value="tag" placeholder="insersci tag..">
+          <input type="submit">
+        </form>
+      </div>
+    </header>
     <div class="container">
+
 
       <?php foreach ($posts as $k => $post) : ?>
         <?php if($queryTag != NULL) { ?>
