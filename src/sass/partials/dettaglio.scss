@@ -4,4 +4,17 @@
   .datePostDetail {
     padding-top: 20px;
   }
+  .wrapContentDetail {
+    display: flex;
+    height: 500px;
+    margin-top: 30px;
+    & wrapImg {
+      width: 40%;
+      height: 100%;
+    }
+    & .contentPostDetail {
+      width: 70%;
+      height: 100%;
+    }
+  }
 }

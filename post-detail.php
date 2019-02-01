@@ -24,8 +24,13 @@
            <div class="datePostDetail">
              <small>Pubblicato il <?php echo convertiData($post[published_at]); ?></small>
            </div>
-           <div class="contentPostDetail">
-             <p><?php echo limitaPost($post[content]); ?></p>
+           <div class="wrapContentDetail">
+             <div class="wrapImg">
+               <img src="<?php echo $post[image]; ?>" alt="">
+             </div>
+             <div class="contentPostDetail">
+               <p><?php echo $post[content]; ?></p>
+             </div>
            </div>
          </div>
        <?php } ?>
